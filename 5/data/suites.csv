@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Oct 23 15:34:16 GMT 2022","Sun Oct 23 15:34:17 GMT 2022","1607","","org.allureHomework.Tests.GitHubTests","","org.allureHomework.Tests.GitHubTests","checkIssueNameWithLambdaSteps","Проверить имя issue – тест с lamda-функцией step",""
+"passed","Sun Oct 23 15:34:17 GMT 2022","Sun Oct 23 15:34:19 GMT 2022","1582","","org.allureHomework.Tests.GitHubTests","","org.allureHomework.Tests.GitHubTests","checkIssueNameWithAnnotationStep","Проверить имя issue – тест с аннотацией @Step",""
+"passed","Sun Oct 23 15:34:08 GMT 2022","Sun Oct 23 15:34:16 GMT 2022","7203","","org.allureHomework.Tests.GitHubTests","","org.allureHomework.Tests.GitHubTests","checkIssueNameSelenide","Проверить имя issue – тест Selenide",""
