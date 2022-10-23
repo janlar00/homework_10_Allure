@@ -19,6 +19,7 @@ public class StepsTest {
     private static final int ISSUE = 80;
 
     @Test
+    @Deprecated
     public void testLambdaStep() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
@@ -42,6 +43,7 @@ public class StepsTest {
     }
 
     @Test
+    @Deprecated
     public void testAnnotatedStep() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         WebSteps steps = new WebSteps();

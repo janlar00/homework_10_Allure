@@ -14,6 +14,7 @@ import static io.qameta.allure.Allure.step;
 
 public class AttachmentsTest {
     @Test
+    @Deprecated
     public void testLambdaAttachments() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
@@ -24,6 +25,7 @@ public class AttachmentsTest {
     }
 
     @Test
+    @Deprecated
     public void testAnnotatedAttachments() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         WebSteps steps = new WebSteps();

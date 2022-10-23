@@ -11,6 +11,7 @@ import io.qameta.allure.selenide.AllureSelenide;
 
 public class SelenideTest {
     @Test
+    @Deprecated
     public void testIssueSearch() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 

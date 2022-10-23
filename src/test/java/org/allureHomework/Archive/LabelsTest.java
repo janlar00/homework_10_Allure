@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 
 public class LabelsTest {
     @Test
+    @Deprecated
     @Feature("Issue в репозитории")
     @Story("Создание Issue")
     @Owner("eroshenkoam")
@@ -22,6 +23,7 @@ public class LabelsTest {
     }
 
     @Test
+    @Deprecated
     public void testDynamicLabels() {
         Allure.getLifecycle().updateTestCase(
                 t -> t.setName("Создание Issue для авторизованного пользователя")
